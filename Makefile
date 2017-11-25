@@ -24,6 +24,7 @@ clean:
 	git submodule foreach git clean -dfx
 	git submodule foreach git reset --hard
 	rm -rf target tmp *.pkg *.dmg
+	cd CCID && git apply ../ccid-patches/secalotSupport.diff
 
 LIBUSB = $(BUILDPREFIX)/lib/libusb-1.0.a
 BUNDLE = $(TARGET)/usr/local/libexec/SmartCardServices/drivers/ifd-ccid.bundle

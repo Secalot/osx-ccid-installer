@@ -1,0 +1,18 @@
+ readers/supported_readers.txt | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/readers/supported_readers.txt b/readers/supported_readers.txt
+index 9995e2f..82c1310 100644
+--- a/readers/supported_readers.txt
++++ b/readers/supported_readers.txt
+@@ -574,6 +574,10 @@
+ 0x04E6:0x5291:SCM Microsystems Inc. SCL010 Contactless Reader
+ 0x04E6:0x5293:SCM Microsystems Inc. SCL01x Contactless Reader
+ 
++# Secalot
++0x1209:0x7000:Secalot Secalot Dongle
++0x1209:0x7001:Secalot Secalot Bootloader
++
+ # Secure Device Solutions
+ 0x0B81:0x8007:Secure Device Solutions DOMINO-Key TWIN
+ 
